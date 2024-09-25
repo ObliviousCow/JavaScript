@@ -1,1 +1,105 @@
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
 
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333333;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+}
+
+body.main {
+    background-image: linear-gradient(
+        rgb(156, 156, 156),
+        rgb(90, 90, 90) 40%,
+        rgb(90, 90, 90) 60%,
+        rgb(156, 156, 156)
+    );
+    height: 97%;
+    width: 95%;
+    margin: auto;
+}
+marquee {
+    margin-top: 20px;
+    background-color: #2b2b2b;
+    height: 20px;
+    transition-duration: 0.5s;
+}
+marquee:hover {
+    background-color: #5a5a5a;
+    height: 30px;
+    transition-duration: 0.5s;
+}
+table.tab {
+    width: 100%;
+    height: 100%;
+}
+table.tab tr td div { 
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgb(71, 71, 71),
+        rgb(90, 58, 58) 50%,
+        rgb(71, 71, 71)
+    );
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    vertical-align: middle;
+}
+table.tab tr td div a {
+    color: #889eff;
+    transition: 0.3s;
+}
+table.tab tr td div a:hover {
+    font-size: 20px;
+    transition: 0.3s;
+}
+table.tab tr td div a.old {
+    color: #6a6e83
+}
+table.tab tr td div a.boxes {
+    color: rgb(87, 190, 109)
+}
+table.tab tr td div iframe {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        rgb(146, 146, 146),
+        rgb(158, 116, 116) 50%,
+        rgb(146, 146, 146)
+    );
+    border-radius: 20px;
+    vertical-align: middle;
+    margin: auto;
+}
+div.back {
+    width: 100%;
+    height: 100%;
+    background-color: #2b2b2b;
+    border-radius: 24px;
+    border: #000; 
+    border-width: 20px;
+    padding: 4px
+}
+body textarea {
+    font-size: 20px;
+    text-wrap: nowrap;
+    resize: none;
+    height: 900px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    margin: auto;
+}
